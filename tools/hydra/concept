@@ -9,4 +9,4 @@ Hydra -l user -P passlist.txt ftp://machine_IP
 
 SSH protocol
 Hydra -l username -P full_path_to_pass machine_IP -t 4 ssh
-tools/hydra/images/image1.png
+!(tools/hydra/images/image1.png)
