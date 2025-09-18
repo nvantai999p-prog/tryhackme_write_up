@@ -1,0 +1,11 @@
+1.What is Hydra? 
+Hydra is a brute force online password cracking program, a quick system login password “haking” tool.
+Hydra can run through a list and “brute force” some authentication services. Imagine trying to manually guess someone’s password on a particular service( SSH, Web application form, FTP or SNMP)
+
+2. Hydra Commands
+The options we pass into Hydra depend on which service(protocol) we’re attacking.
+For example, if we wanted to brute force FTP with username being user and a password list being passlist.txt, we’d use the following command:
+Hydra -l user -P passlist.txt ftp://machine_IP
+
+SSH protocol
+Hydra -l username -P full_path_to_pass machine_IP -t 4 ssh
